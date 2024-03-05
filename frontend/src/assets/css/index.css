@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('./fonts/ARIALROUNDEDMTLIGHT.woff'),
+        /* Light */ url('./fonts/ARIALROUNDEDMT.woff'),
+        /* Regular */ url('./fonts/ARLRDBD.woff'),
+        /* Bold */ url('./fonts/ARIALROUNDEDMTEXTRABOLD.woff'); /* Extra Bold */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    @apply font-arial font-bold;
+}
+
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p,
+a p {
+    @apply font-arial font-bold;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+a span {
+    @apply font-arial font-bold;
+}
+
+* {
+    @apply font-inter font-light;
+}
+
+.vertical-timeline::before {
+    border-radius: 2rem;
+}

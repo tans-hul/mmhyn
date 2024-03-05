@@ -1,0 +1,12 @@
+.active {
+  @apply bg-secondary
+}
+
+.active p {
+  @apply bg-gradient bg-clip-text text-transparent border-b-2 border-b-golden
+}
+
+
+#navbar-item:hover {
+  @apply active
+}

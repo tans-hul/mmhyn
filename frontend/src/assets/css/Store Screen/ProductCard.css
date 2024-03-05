@@ -1,0 +1,6 @@
+@media screen and (width: 1280px) {
+  #desc-button a {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
